@@ -45,7 +45,7 @@ const CharacterComponent = () => {
   };
 
 
-
+//add intial characters
   const [character, setCharacter] = useState([character1,character2,character3]);
   const [showForm, setShowForm] = useState(false);
   const [characterName, setCharacterName] = useState("");
@@ -63,8 +63,6 @@ const CharacterComponent = () => {
       setSelectedFile(files[0]);
     }
   };
-
-
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
